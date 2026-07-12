@@ -33,4 +33,5 @@ print(manM.attack())
 print(manA.attack())
 print(manW.rest())
 print(manM.rest())
+
 print(manA.rest())
