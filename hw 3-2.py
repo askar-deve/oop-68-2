@@ -25,6 +25,8 @@ class Assassin(Hero):
 manW = Warrior('manW', 12,32,33)
 manM = Mage('manM', 12,32,33)
 manA = Assassin('manA', 22,432,32)
+
+
 print(manW.greet())
 print(manM.greet())
 print(manA.greet())
@@ -33,5 +35,5 @@ print(manM.attack())
 print(manA.attack())
 print(manW.rest())
 print(manM.rest())
-
 print(manA.rest())
+print('the end')
