@@ -36,4 +36,5 @@ print(manA.attack())
 print(manW.rest())
 print(manM.rest())
 print(manA.rest())
+
 print('the end')
