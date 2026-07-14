@@ -51,10 +51,6 @@ class BankAccount:
         )
 
 
-ee = BankAccount(Hero, 10, "ljhg")
-
-print(ee.full_info)
-
 
 
 
