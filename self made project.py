@@ -81,7 +81,7 @@ while True:
                 message = f"[{current_user.login}]: {report}"
                 comment.append(message)
 
-                print('Ваш отзыв успешно сохранен!')
+                print('ваш отзыв сохранен!')
                 print('===========================================================================')
             elif answer == '/get_comments':
                 if current_user.status == 'admin':
@@ -94,7 +94,7 @@ while True:
                     print('команда не найдена!')
                 print('===========================================================================')
             elif answer == '/switch_acc':
-                print('Выходим из аккаунта...\n')
+                print('выполняется выход\n')
                 entry = 0
             elif answer == '/get_info':
                 current_user.get_info()
